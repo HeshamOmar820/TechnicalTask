@@ -90,7 +90,7 @@ export default {
 
 <style scoped>
   main {
-    background: url("./map3.jpg");
+    background: url("./map.jpg");
     background-size: cover;
     background-position: center;
   }
