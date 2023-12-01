@@ -28,7 +28,6 @@ export default {
     methods: {
         fetchingCountryNames() {
             this.countries = Object.keys(countries).map((key) => ({ key, name: this.modelingCountryName(countries[key])}))
-            console.log(this.countries)
         },
         modelingCountryName(name) { 
             return typeof name === 'string' ? name : name[name.length - 1]

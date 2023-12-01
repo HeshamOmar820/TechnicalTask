@@ -72,13 +72,6 @@ export default {
         });
       });
     },
-    showAlert() {
-      this.$swal({
-        title: "Good job!",
-        text: "You clicked the button!",
-        icon: "success"
-      });
-    },
   },
   components: {
     CountryDropdown,
